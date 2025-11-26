@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-24 px-6 bg-white dark:bg-black text-center">
         <Image
           className="dark:invert mb-6"
-          src="/next.svg"
+          src="next.svg"
           alt="Next.js logo"
           width={120}
           height={28}
