@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-24 px-6 bg-white dark:bg-black text-center">
         <Image
           className="dark:invert mb-8"
-          src="logo.svg"
+          src="logo.svg?v={Date.now()}"
           alt="Zephyr Devs logo"
           width={260}
           height={96}
