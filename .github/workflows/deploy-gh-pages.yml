@@ -26,6 +26,8 @@ jobs:
           fi
 
       - name: Build and export static site
+        env:
+          DEPLOY_TARGET: gh-pages
         run: npm run export
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
