@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="200" viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZephyrDev logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3aa0ff"/>
+      <stop offset="100%" stop-color="#0066cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="white"/>
+  <g transform="translate(40,20)">
+    <!-- simple abstract network mark -->
+    <g transform="scale(1)">
+      <circle cx="60" cy="40" r="18" fill="url(#g)" />
+      <circle cx="110" cy="20" r="10" fill="#89c9ff" />
+      <circle cx="130" cy="60" r="12" fill="#2a86d7" />
+      <circle cx="80" cy="80" r="8" fill="#5fb1ff" />
+      <path d="M73 50 L95 35" stroke="#2a86d7" stroke-width="3" stroke-linecap="round" />
+      <path d="M85 25 L120 45" stroke="#6fb9ff" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M102 60 L95 40" stroke="#2a86d7" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- text -->
+    <g transform="translate(170,48)">
+      <text x="0" y="6" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#0b1220">ZephyrDev</text>
+    </g>
+  </g>
+</svg>
