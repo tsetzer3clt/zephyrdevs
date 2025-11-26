@@ -5,19 +5,19 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-24 px-6 bg-white dark:bg-black text-center">
         <Image
-          className="dark:invert mb-6"
+          className="dark:invert mb-8"
           src="logo.svg"
-          alt="ZephyrDev logo"
-          width={140}
-          height={48}
+          alt="Zephyr Devs logo"
+          width={260}
+          height={96}
           priority
         />
 
-        <h1 className="text-4xl font-extrabold text-black dark:text-zinc-50 mb-4">
-          ZephyrDevs
+        <h1 className="text-6xl sm:text-7xl font-extrabold text-black dark:text-zinc-50 mb-6">
+          Zephyr Devs
         </h1>
 
-        <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mb-6">
+        <p className="text-xl sm:text-2xl text-zinc-600 dark:text-zinc-400 max-w-3xl mb-8 leading-relaxed">
           A lightweight Next.js starter. This site is deployed using Vercel (auto
           deploys on push). If you want GitHub Pages, the repository contains an
           export workflow that publishes a static build to the `gh-pages` branch.
